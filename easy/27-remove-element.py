@@ -13,3 +13,10 @@ class Solution(object):
                     return k
         else:
             return k
+        
+
+
+"""
+kaldırıp eklemek tehlikeli index sırasını bozar büyük ihtimal bunda çalıştı ama şöyle yapabilirdik
+direkt nums[a] = nums[b] gibi atama şeklinde yapabilirdik ama ilk aklıma bu geldi ve çalıştı dokunmadım.    
+"""
